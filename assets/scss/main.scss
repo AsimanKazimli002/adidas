@@ -1,0 +1,69 @@
+// utils folder
+@import './utils/variable';
+
+// layout folder
+@import './layout/header';
+@import './layout/footer';
+
+// Pages folder
+@import './pages/school';
+@import './pages/products';
+@import './pages/shop';
+@import './pages/popular';
+@import './pages/summer';
+@import './pages/leader';
+@import './pages/join';
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+}
+.row{
+    display: flex;
+}
+
+@media (min-width:1800px){
+    .container{
+        width: 1750px;
+    }
+}
+
+.col-2{
+    width: calc(100%/12*2);
+}
+.col-3{
+    width: calc(100%/12*3);
+}
+.col-4{
+    width: calc(100%/12*4);
+}
+.col-5{
+    width: calc(100%/12*5);
+}
+.col-6{
+    width: calc(100%/12*6);
+}
+.col-7{
+    width: calc(100%/12*7);
+}
+.col-8{
+    width: calc(100%/12*8);
+}
+.col-9{
+    width: calc(100%/12*9);
+}
+.col-10{
+    width: calc(100%/12*10);
+}
+.col-11{
+    width: calc(100%/12*11);
+}
+.col-12{
+    width: calc(100%/12*12);
+}

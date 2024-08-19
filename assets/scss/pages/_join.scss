@@ -1,0 +1,16 @@
+#join{
+    background-color: rgb(237,231,52);
+    .adiclub{
+        display: flex;
+        justify-content: center;
+        padding: 30px 0px;
+
+        button{
+            background-color: $ColorBlack;
+            color: $ColorWhite;
+            box-shadow: 5px 5px 4px $ColorBlack;
+            padding: 10px;
+            margin-left: 20px;
+        }
+    }
+}
